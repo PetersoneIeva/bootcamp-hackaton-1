@@ -20,6 +20,7 @@ body {
   background-image: url(https://www.teahub.io/photos/full/61-613275_snow-cat.jpg);
 }
 
+/*navbar style override*/
 .navbar {
   background-color: #0f1225;
 }
@@ -36,6 +37,70 @@ body {
   margin: 15%;
   border-radius: var(--border-radius);
   box-shadow: 0 0 40px rgba(0, 0, 0, 1);
+}
+
+.form-title {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.form > *:first-child {
+  margin-top: 0;
+}
+
+.form > *:last-child {
+  margin-bottom: 0;
+}
+
+.form-message {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.form-messageError {
+  color: var(--color-error);
+}
+
+.form-messageSuccess {
+  color: var(--color-valid);
+}
+
+.form-inputError {
+  color: var(--color-error);
+  border-color: var(--color-error);
+}
+
+.form-inputSuccess {
+  color: var(--color-valid);
+  border-color: var(--color-valid);
+}
+
+.form-inputErrorMessage {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color: var(--color-error);
+}
+
+.form-button {
+  background: var(--color-primary-dark) !important;
+}
+
+.form-button:hover {
+  background: var(--color-primary) !important;
+}
+
+.form-button:active {
+  transform: scale(0.98);
+}
+
+.form p {
+  text-align: center;
+  padding-top: 0.5rem;
+}
+
+.form-link {
+  text-decoration: none;
+  color: var(--color-primary-dark);
 }
 
 /*
