@@ -68,3 +68,18 @@ body #login {
 .form-button {
 }
 */
+
+h1.mb-3 {
+    color: #0f1225;
+}
+h5.mb-4 {
+    color: #0f1225;
+}
+a.btn {
+    color: white;
+    background-color: #0f1225;
+    border: none;
+}
+nav.navbar {
+    padding: 0px;
+}
