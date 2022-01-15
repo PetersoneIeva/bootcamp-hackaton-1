@@ -1,3 +1,24 @@
+
+/* Default height for small devices */
+#intro-example {
+    height: 400px;
+    }
+      
+/* Height for devices larger than 992px */
+          @media (min-width: 992px) {
+            #intro-example {
+              height: 600px;
+            }
+          }
+.text-uppercase {
+    color: #0f1225;
+}
+div.text-center.p-4 {
+    color: white;
+}
+a.nav-link {
+    color: white;
+}
 /*values for reference*/
 body {
   --color-primary: #1f4b8e;
@@ -19,13 +40,7 @@ body #login {
   font-size: 18px;
   background-color: var(--color-secondary);
 }
-
-/*Form design*/
-
-.mainContainer {
-  background-image: url();
-}
-
+/*
 .form {
 }
 
@@ -52,25 +67,4 @@ body #login {
 
 .form-button {
 }
-
-/* Default height for small devices */
-#intro-example {
-  height: 400px;
-}
-
-/* Height for devices larger than 992px */
-@media (min-width: 992px) {
-  #intro-example {
-    height: 600px;
-  }
-}
-
-.text-uppercase {
-  color: #0f1225;
-}
-div.text-center.p-4 {
-  color: #0f1225;
-}
-div.container-fluid {
-  background-color: #adbccd;
-}
+*/
