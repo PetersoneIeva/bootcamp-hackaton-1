@@ -49,12 +49,31 @@
           </div>
         </nav>
         <!-- /Navbar -->
+</header>
 
+<!--Forgot password form-->
+<div id="loginBody ">
+    <div class="containerForm form-hidden" id="resetPassword">
+    <form class="form">
+        <h1 class="form-title">Reset password</h1>
+        <div class="form-message form-messageError"></div>
+        <div class="mb-3">
+          <input type="email" class="form-control form-input" autofocus placeholder="Enter recovery email">
+          <div class="form-inputErrorMessage"></div>
+        </div>
+        <button  class="btn btn-dark col-6 mx-auto d-grid gap-2 form-button">Send</button>
+        <p><a class="form-link" id="linkSignIn" >Instead - Sign in</a></p>
+<!--Link to registration page-->
+        <p><a href="registration.html" class="form-link">Don't have an account? Create account</a></p>
+
+      </form>
+    </div>
+</div>
+<!--/Forgot password form-->
 <!-- Login form-->
-      </header>
 <div id="loginBody">
-    <div class="containerForm">
-    <form class="form" id="logIn">
+    <div class="containerForm " id="login">
+    <form class="form" >
         <h1 class="form-title">Login</h1>
         <div class="form-message form-messageError"></div>
         <div class="mb-3">
@@ -67,7 +86,7 @@
         </div>
         <div class="mb-3 form-check">
           <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">Remember me</label>
+          <label class="form-check-label" >Remember me</label>
         </div>
         <button  class="btn btn-dark col-6 mx-auto d-grid gap-2 form-button">Log In</button>
 <!-- Link reset password (js feature)-->        
@@ -80,7 +99,7 @@
 </div>
 <!--/Login form-->
 
-     <!-- Footer -->
+<!-- Footer -->
   <footer class="text-center text-lg-start bg-light text-muted">
     <!-- Section: Social media -->
     <section
@@ -208,6 +227,6 @@
     <!-- Copyright -->
   </footer>
   <!-- Footer -->
-      <script src="./src/main.js"></script>
+      <script src="./src/main.js"></script> 
 </body>
 </html>
