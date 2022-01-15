@@ -1,0 +1,13 @@
+html, body {
+    background-color: #0f1225;
+}
+
+#submit-btn {
+    background-color: #0f1225;
+    color: white;
+}
+
+.card {
+    border: solid 1px #0f1225;
+    border-radius: 15px;
+}

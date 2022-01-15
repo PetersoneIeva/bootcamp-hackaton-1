@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+        <link rel='stylesheet' href="css/style.css">
+  
+    <style>
+         main {
+            min-height: 80vh;
+        }
+
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+
+    <!-- Custom styles for this template -->
+    <link href="/css/pricing.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <div class="container py-3">
+        <header>
+
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-white" >
+                <div class="container-fluid p-3" style="background-color: #0f1225;">
+                    <button class="navbar-toggler" type="button" (click)="backgroundImageExample2.toggle()"
+                        aria-controls="backgroundImageExample2" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <div mdbCollapse #backgroundImageExample2="mdbCollapse" class="collapse navbar-collapse"
+                        id="backgroundImageExample2">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item active">
+                                <a class="nav-link" aria-current="page" style="color: white"  href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link"style="color: white"  href="pricing.html">Pricing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" style="color: white"  href="LogIn.html">Login</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" style="color: white"  href="registration.html">Register</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- Navbar -->
+
+        </header>
+
+        <main>
+            <div class="pricing-header p-3 pb-md-4  text-center">
+                <h1 class="display-4 fw-normal">Pricing</h1>
+                <p class="fs-5 text-muted text-center">Rent a friend for reasonable price. Long term or short term
+                    fluffiness. All available for wallet-friendly prices.</p>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm border-dark">
+                        <div class="card-header py-3 text-white border-color" style="background-color: #a4b2c2;">
+                            <h4 class="my-0 fw-normal">Day</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">€10<small class="text-muted fw-light">/day</small>
+                            </h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>Self pick up</li>
+                                <li>Food for fluffy friend</li>
+                                <li>Transport cage</li>
+                                <li>Help center access</li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg btn-dark" style="background-color: #1f4b8e;">Rent now!</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm border-dark" >
+                        <div class="card-header py-3 text-white border-dark" style="background-color: #a4b2c2;">
+                            <h4 class="my-0 fw-normal">Week</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">€50<small
+                                    class="text-muted fw-light">/week</small>
+                            </h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>Home delivery</li>
+                                <li>Food for fluffy friend</li>
+                                <li>Personal assistence if needed</li>
+                                <li>Help center access</li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg btn-dark" style="background-color: #1f4b8e;">Give it a try!</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm border-dark">
+                        <div class="card-header py-3 text-white border-dark" style="background-color: #a4b2c2;">
+                            <h4 class="my-0 fw-normal">Lifetime access</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">€360<small
+                                    class="text-muted fw-light">/annual</small>
+                            </h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>Home delivery</li>
+                                <li>Free T-shirt with friends picture</li>
+                                <li>You can name your friend!!</li>
+                                <li>For you and your friend matching neck straps</li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg btn-dark" style="background-color: #1f4b8e;">What are you waiting for!</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </main>
+
+        <footer class="text-center text-lg-start bg-light text-muted">
+            <!-- Section: Social media -->
+            <section
+              class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+            >
+              <!-- Left -->
+              <div class="me-5 d-none d-lg-block">
+                <span>Get connected with us on social networks:</span>
+              </div>
+              <!-- Left -->
+          
+              <!-- Right -->
+              <div>
+                <a href="" class="me-4 text-reset">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                  <i class="fab fa-google"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+              <!-- Right -->
+            </section>
+            <!-- Section: Social media -->
+          
+            <!-- Section: Links  -->
+            <section class="">
+              <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                  <!-- Grid column -->
+                  <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                    <!-- Content -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                      <i class="fas fa-gem me-3"></i>Rent a Snow Cat
+                    </h6>
+                    <p>
+                      Te be perfectly happy You need nothing more than a furry friend to hold.
+                    </p>
+                  </div>
+                  <!-- Grid column -->
+          
+                  <!-- Grid column -->
+                  <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                      Navigation
+                    </h6>
+                    <p>
+                      <a href="#!" class="text-reset">Home</a>
+                    </p>
+                    <p>
+                      <a href="#!" class="text-reset">Pricing</a>
+                    </p>
+                    <p>
+                      <a href="#!" class="text-reset">Login</a>
+                    </p>
+                    <p>
+                      <a href="#!" class="text-reset">Registration</a>
+                    </p>
+                  </div>
+                  <!-- Grid column -->
+          
+                  <!-- Grid column -->
+                  <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                      Company
+                    </h6>
+                    <p>
+                      <a href="#!" class="text-reset">About us</a>
+                    </p>
+                    <p>
+                      <a href="#!" class="text-reset">FAQ</a>
+                    </p>
+                    <p>
+                      <a href="#!" class="text-reset">Support</a>
+                    </p>
+                    <p>
+                      <a href="#!" class="text-reset">Terms of service</a>
+                    </p>
+                    <p>
+                        <a href="#!" class="text-reset">Privacy policy</a>
+                    </p>
+                  </div>
+                  <!-- Grid column -->
+          
+                  <!-- Grid column -->
+                  <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                      Contact
+                    </h6>
+                    <p><i class="fas fa-home me-3"></i> Riga, LV - 1010, LVS</p>
+                    <p>
+                      <i class="fas fa-envelope me-3"></i>
+                      info@rentasnowcat.com
+                    </p>
+                    <p><i class="fas fa-phone me-3"></i> + 371 29 49 2883</p>
+                    <p><i class="fas fa-print me-3"></i> + 371 29 55 3688</p>
+                  </div>
+                  <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+              </div>
+            </section>
+            <!-- Section: Links  -->
+          
+            <!-- Copyright -->
+            <div class="text-center p-4" style="background-color: #0f1225; color: white">
+              © 2022 Copyright:
+              <a class="text-reset fw-bold">Accenture SGT Bootccamp Team Nr.1</a>
+            </div>
+            <!-- Copyright -->
+          </footer>
+    </div>
+
+
+</body>
+
+</html>
