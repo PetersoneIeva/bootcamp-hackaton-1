@@ -56,13 +56,13 @@
     <div class="containerForm form-hidden" id="resetPassword">
     <form class="form">
         <h1 class="form-title">Reset password</h1>
-        <div class="form-message form-messageError"></div>
+        <div class="form-message form-message-error"></div>
         <div class="mb-3">
           <input type="email" class="form-control form-input" autofocus placeholder="Enter recovery email">
-          <div class="form-inputErrorMessage"></div>
+          <div class="form-input-error-message"></div>
         </div>
         <button  class="btn btn-dark col-6 mx-auto d-grid gap-2 form-button">Send</button>
-        <p><a class="form-link" id="linkSignIn" >Instead - Sign in</a></p>
+        <p><a class="form-link" id="linkSignIn" >Return to Sign in</a></p>
 <!--Link to registration page-->
         <p><a href="registration.html" class="form-link">Don't have an account? Create account</a></p>
 
@@ -75,20 +75,20 @@
     <div class="containerForm " id="login">
     <form class="form" >
         <h1 class="form-title">Login</h1>
-        <div class="form-message form-messageError"></div>
+        <div class="form-message form-message-success" id="success"></div>
         <div class="mb-3">
-          <input type="text" class="form-control form-input" autofocus placeholder="Username or email">
-          <div class="form-inputErrorMessage"></div>
+          <input type="text" class="form-control form-input" id="inputUser" autofocus placeholder="Username or email">
+          <div class="form-input-error-message" id="userError"></div>
         </div>
         <div class="mb-3">
-          <input type="password" class="form-control form-input"  autofocus placeholder="Password">
-            <div class="form-inputErrorMessage"></div>
+          <input type="password" class="form-control form-input" id="passwordLogin"  autofocus placeholder="Password">
+            <div class="form-input-error-message" id="passwordError"></div>
         </div>
         <div class="mb-3 form-check">
           <input type="checkbox" class="form-check-input" id="exampleCheck1">
           <label class="form-check-label" >Remember me</label>
         </div>
-        <button  class="btn btn-dark col-6 mx-auto d-grid gap-2 form-button">Log In</button>
+        <button  class="btn btn-dark col-6 mx-auto d-grid gap-2 form-button" type="button" onclick="getData()" id="buttonLogin">Log In</button>
 <!-- Link reset password (js feature)-->        
         <p><a class="form-link" id="linkResetPassword" >Forgot your password?</a></p> 
 <!--Link to registration page-->
@@ -228,5 +228,6 @@
   </footer>
   <!-- Footer -->
       <script src="./src/main.js"></script> 
+      <script src="./src/loginpassword.js"></script>
 </body>
 </html>

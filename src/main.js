@@ -1,3 +1,4 @@
+/*Linkin Log in and reset password forms interchengably*/
 document.addEventListener("DOMContentLoaded", () => {
     const loginForm = document.querySelector("#login");
     const resetPasswordForm = document.querySelector("#resetPassword");

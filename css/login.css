@@ -66,25 +66,15 @@ body {
 }
 
 /* Reaction to content input */
-.form-messageError {
+.form-message-error {
   color: var(--color-error);
 }
 
-.form-messageSuccess {
+.form-message-success {
   color: var(--color-valid);
 }
 
-.form-inputError {
-  color: var(--color-error);
-  border-color: var(--color-error);
-}
-
-.form-inputSuccess {
-  color: var(--color-valid);
-  border-color: var(--color-valid);
-}
-
-.form-inputErrorMessage {
+.form-input-error-message {
   margin-top: 0.5rem;
   font-size: 0.85rem;
   color: var(--color-error);
