@@ -20,6 +20,14 @@ body {
   background-image: url(https://www.teahub.io/photos/full/61-613275_snow-cat.jpg);
 }
 
+.navbar {
+  background-color: #0f1225;
+}
+
+.nav-link {
+  color: #ffffff;
+}
+
 /*Form design*/
 
 .containerForm {
