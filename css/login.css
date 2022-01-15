@@ -10,6 +10,7 @@ body {
   --border-radius: 10px;
 }
 
+/*body*/
 #loginBody {
   margin: 0;
   height: 100vh;
@@ -37,6 +38,8 @@ body {
   margin: 15%;
   border-radius: var(--border-radius);
   box-shadow: 0 0 40px rgba(0, 0, 0, 1);
+  justify-content: center;
+  position: absolute;
 }
 
 .form-title {
@@ -44,6 +47,11 @@ body {
   text-align: center;
 }
 
+.form-hidden {
+  display: none;
+}
+
+/*for equal margins top and bottom of the form */
 .form > *:first-child {
   margin-top: 0;
 }
@@ -57,6 +65,7 @@ body {
   margin-bottom: 1rem;
 }
 
+/* Reaction to content input */
 .form-messageError {
   color: var(--color-error);
 }
@@ -81,6 +90,7 @@ body {
   color: var(--color-error);
 }
 
+/* Button style override */
 .form-button {
   background: var(--color-primary-dark) !important;
 }
@@ -93,6 +103,7 @@ body {
   transform: scale(0.98);
 }
 
+/* text and link formatting */
 .form p {
   text-align: center;
   padding-top: 0.5rem;
@@ -101,33 +112,9 @@ body {
 .form-link {
   text-decoration: none;
   color: var(--color-primary-dark);
+  cursor: pointer;
 }
 
-/*
-.form {
+.form-link:hover {
+  text-decoration: underline;
 }
-
-#logIn {
-}
-
-.form-title {
-}
-
-.form-input {
-}
-
-.form-messageError {
-}
-
-.form-inputErrorMessage {
-}
-
-.form-link {
-}
-
-.linkResetPassword {
-}
-
-.form-button {
-}
-*/
