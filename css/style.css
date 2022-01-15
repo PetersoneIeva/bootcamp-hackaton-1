@@ -2,14 +2,30 @@
 /* Default height for small devices */
 #intro-example {
     height: 400px;
-    }
+    
+}
       
 /* Height for devices larger than 992px */
-          @media (min-width: 992px) {
-            #intro-example {
-              height: 600px;
-            }
-          }
+@media (min-width: 992px) {
+    #intro-example {
+        height: 740px;
+    }
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+    
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+}
+    }
+
 .text-uppercase {
     color: #0f1225;
 }
@@ -18,5 +34,31 @@ div.text-center.p-4 {
 }
 a.nav-link {
     color: white;
+}
+
+i.fas.fa-bars::before {
+    color: white;
+ }
+nav.navbar {
+    padding: 0px;
+}
+
+div.col-lg-4 {
+    padding: 0.5%;
+
+}
+h1.mb3 {
+    font-size: 40 vw;
+}
+h1 {
+    color: #0f1225;
+}
+h5.mb-4 {
+    color: #0f1225;
+}
+a.btn {
+    color: white;
+    border-color: #0f1225;
+    background-color: #0f1225;
 }
       
