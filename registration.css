@@ -1,4 +1,9 @@
 #submit-btn {
-    background-color: #0f1225;
+    background-color: #1f4b8e;
     color: white;
+}
+
+.card {
+    border: solid 1px #0f1225;
+    border-radius: 15px;
 }
