@@ -10,8 +10,220 @@
     <link rel='stylesheet' href="css/style.css">
 </head>
 <body>
-    <h1>Hello world!</h1>
-    <img src="image/cat.jpg" class="img-fluid" alt="...">
-    
+    <header>
+        <!-- Intro settings -->
+        <style>
+          /* Default height for small devices */
+          #intro-example {
+            height: 400px;
+          }
+      
+          /* Height for devices larger than 992px */
+          @media (min-width: 992px) {
+            #intro-example {
+              height: 600px;
+            }
+          }
+        </style>
+      
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+          <div class="container-fluid">
+            <button
+              class="navbar-toggler"
+              type="button"
+              (click)="backgroundImageExample2.toggle()"
+              aria-controls="backgroundImageExample2"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="fas fa-bars"></i>
+            </button>
+            <div
+              mdbCollapse
+              #backgroundImageExample2="mdbCollapse"
+              class="collapse navbar-collapse"
+              id="backgroundImageExample2"
+            >
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item active">
+                  <a class="nav-link" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Login</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Register</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- Navbar -->
+
+      </header>
+   <!-- Background image -->
+    <div
+          id="intro-example"
+          class="p-5 text-center bg-image"
+          style="background-image: url('image/R.jpg'); background-repeat: no-repeat; background-size: 100%;" class="img-fluid" alt="HeroImage"
+        >
+        <div class="mask" style="background-color: rgba(0, 0, 0, 0.7);">
+            <div class="d-flex justify-content-center align-items-center h-100">
+              <div class="text-white">
+                <h1 class="mb-3">Find yourself the snow buddy</h1>
+                <h5 class="mb-4">Best friend for your snow adventures</h5>
+                <a
+                  class="btn btn-outline-light btn-lg m-2"
+                  href="https://www.youtube.com/watch?v=c9B4TPnak1A"
+                  role="button"
+                  rel="nofollow"
+                  target="_blank"
+                  >Find the right cat</a
+                >
+                <a
+                  class="btn btn-outline-light btn-lg m-2"
+                  href="https://mdbootstrap.com/docs/b5/angular/"
+                  target="_blank"
+                  role="button"
+                  >See the pricing</a
+                >
+              </div>
+            </div>
+        </div>
+    </div>
+    <!-- Background image -->
+    <h1 class="text-center">This is a web page of a snow cat rental page!!</h1>
+
+    <footer class="text-center text-white" style="background-color: #caced1;">
+        <!-- Grid container -->
+        <div class="container p-4">
+          <!-- Section: Images -->
+          <section class="">
+            <div class="row">
+              <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+                <div
+                  mdbRipple
+                  rippleColor="light"
+                  class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                >
+                  <img
+                    src="image/download.jpg"
+                    class="w-100"
+                  />
+                  <a href="#!">
+                    <div
+                      class="mask"
+                      style="background-color: rgba(251, 251, 251, 0.2);"
+                    ></div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+                <div
+                  mdbRipple
+                  rippleColor="light"
+                  class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                >
+                  <img
+                    src="image/cat-trial-image.jpg"
+                    class="w-100"
+                  />
+                  <a href="#!">
+                    <div
+                      class="mask"
+                      style="background-color: rgba(251, 251, 251, 0.2);"
+                    ></div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+                <div
+                  mdbRipple
+                  rippleColor="light"
+                  class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                >
+                  <img
+                    src="image/OIP.jpg"
+                    class="w-100"
+                  />
+                  <a href="#!">
+                    <div
+                      class="mask"
+                      style="background-color: rgba(251, 251, 251, 0.2);"
+                    ></div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+                <div
+                  mdbRipple
+                  rippleColor="light"
+                  class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                >
+                  <img
+                    src="image/download (1).jpg"
+                    class="w-100"
+                  />
+                  <a href="#!">
+                    <div
+                      class="mask"
+                      style="background-color: rgba(251, 251, 251, 0.2);"
+                    ></div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+                <div
+                  mdbRipple
+                  rippleColor="light"
+                  class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                >
+                  <img
+                    src="image/OIP (3).jpg"
+                    class="w-100"
+                  />
+                  <a href="#!">
+                    <div
+                      class="mask"
+                      style="background-color: rgba(251, 251, 251, 0.2);"
+                    ></div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+                <div
+                  mdbRipple
+                  rippleColor="light"
+                  class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                >
+                  <img
+                    src="image/AnMa's World_AnMa ZiNe.jpg"
+                    class="w-100"
+                  />
+                  <a href="#!">
+                    <div
+                      class="mask"
+                      style="background-color: rgba(251, 251, 251, 0.2);"
+                    ></div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- Section: Images -->
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2022 Copyright:
+          <a class="text-white">Accenture SGT Bootcamp Team Nr.1</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
 </body>
 </html>
