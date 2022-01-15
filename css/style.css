@@ -1,0 +1,22 @@
+
+/* Default height for small devices */
+#intro-example {
+    height: 400px;
+    }
+      
+/* Height for devices larger than 992px */
+          @media (min-width: 992px) {
+            #intro-example {
+              height: 600px;
+            }
+          }
+.text-uppercase {
+    color: #0f1225;
+}
+div.text-center.p-4 {
+    color: #0f1225;
+}
+a.nav-link {
+    color: white;
+}
+      
