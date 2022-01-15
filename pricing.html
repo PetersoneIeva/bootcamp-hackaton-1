@@ -39,12 +39,12 @@
 
 <body>
 
-    <div class="container py-3">
+
         <header>
 
             <!-- Navbar -->
-            <nav class="navbar navbar-expand-lg navbar-light bg-white" >
-                <div class="container-fluid p-3" style="background-color: #0f1225;">
+            <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #0f1225;">
+                <div class="container-fluid p-3" >
                     <button class="navbar-toggler" type="button" (click)="backgroundImageExample2.toggle()"
                         aria-controls="backgroundImageExample2" aria-expanded="false" aria-label="Toggle navigation">
                         <i class="fas fa-bars"></i>
@@ -71,13 +71,14 @@
             <!-- Navbar -->
 
         </header>
-
-        <main>
+<div class="container py-3"> 
+<main>
             <div class="pricing-header p-3 pb-md-4  text-center">
                 <h1 class="display-4 fw-normal">Pricing</h1>
-                <p class="fs-5 text-muted text-center">Rent a friend for reasonable price. Long term or short term
+                <p class="fs-5 text-muted">Rent a friend for reasonable price. Long term or short term
                     fluffiness. All available for wallet-friendly prices.</p>
             </div>
+           
             <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
                 <div class="col">
                     <div class="card mb-4 rounded-3 shadow-sm border-dark">
@@ -139,7 +140,7 @@
 
 
         </main>
-
+</div>
         <footer class="text-center text-lg-start bg-light text-muted">
             <!-- Section: Social media -->
             <section
@@ -266,7 +267,6 @@
             </div>
             <!-- Copyright -->
           </footer>
-    </div>
 
 
 </body>
