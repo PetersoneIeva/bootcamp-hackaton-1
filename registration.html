@@ -11,17 +11,11 @@
     <title>Registration</title>
 </head>
 
-<body>
-
+<body style = 'background-image: url(https://previews.123rf.com/images/yommy8008/yommy80081701/yommy8008170100035/70752023-foto-verticale-con-paesaggio-di-scena-invernale-il-sentiero-che-%C3%A8-coperto-da-neve-bianca-attraversa-.jpg)'>
   <header>
-    <!-- Intro settings -->
-    
-      
-
-  
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
-      <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #0f1225">
+      <div class="container-fluid p-3" > 
         <button
           class="navbar-toggler"
           type="button"
@@ -40,27 +34,28 @@
         >
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item active">
-              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link" style="color: white" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="pricing.html">Pricing</a>
+              <a class="nav-link" style="color: white" href="pricing.html">Pricing</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="LogIn.html">Login</a>
+              <a class="nav-link" style="color: white" href="LogIn.html">Login</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="registration.html">Register</a>
+              <a class="nav-link" style="color: white" href="registration.html">Register</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
     <!-- Navbar -->
+ 
 
-        <div class="align-items-center mb-3">
-          <div class="container mt-3">
+        <div class="align-items-center mb-4">
+          <div class="container mt-2">
             <div class="row d-flex justify-content-center align-items-center">
-              <div class="col-12  col-md-9 col-lg-8">
+              <div class="col-12 col-md-7 col-lg-7">
                 <div class="card">
                   <div class="card-body p-5">
                     <h2 class="text-center mb-5">CREATE AN ACCOUNT</h2>
@@ -69,13 +64,18 @@
 
                     <form>
                       <div class="form-outline mb-2">
-                        <input type="text" class="form-control form-control-lg" />
+                        <input type="text" id = 'name' class="form-control form-control-lg" />
                         <label class="form-label">Your Name</label>
                       </div>
 
                       <div class="form-outline mb-2">
-                        <input type="text" class="form-control form-control-lg" />
+                        <input type="text" class="form-control form-control-lg"/>
                         <label class="form-label">Your Surname</label>
+                      </div>
+
+                      <div class="form-outline mb-2">
+                        <input type="text" class="form-control form-control-lg aria-label = Username aria-describedby=basic-addon1"/>
+                        <label class="form-label">Username</label>
                       </div>
 
                       <div class="form-outline mb-2">
@@ -85,12 +85,12 @@
 
                       <div class="form-outline mb-4">
                         <input type="password" id="form3Example4cg" class="form-control form-control-lg" />
-                        <label class="form-label" for="form3Example4cg">Password</label>
+                        <label class="form-label">Password</label>
                       </div>
 
                       <div class="form-outline mb-4">
                         <input type="password" id="form3Example4cg" class="form-control form-control-lg" />
-                        <label class="form-label" for="form3Example4cg">Confirm Password</label>
+                        <label class="form-label">Confirm Password</label>
                       </div>
 
                       <!--checkbox-->
@@ -102,7 +102,7 @@
                           value=""
                         />
                         <label class="form-check-label">
-                          I agree all with <a href ='#'<span>terms and conditions</span></a>
+                          I agree with all <a href ='#'<span>terms and conditions</span></a>
                         </label>
                       </div>
 
@@ -113,7 +113,7 @@
                       </div>
       
                       <p class="text-center text-muted mt-5">Already have an account?
-                         <a href="LogIn.html" class="fw-bold text-body">
+                         <a href="/LogIn.html" class="fw-bold text-body">
                            <u>Login here</u>
                         </a>
                       </p>
@@ -249,15 +249,14 @@
   <!-- Section: Links  -->
 
   <!-- Copyright -->
-  <div class="text-center p-4" style="background-color: #adbccd;">
+  <div class="text-center p-4" style="background-color: #0f1225;">
     © 2021 Copyright:
     <a class="text-reset fw-bold">Accenture SGT Bootccamp Team Nr.1</a>
   </div>
   <!-- Copyright -->
 </footer>
-<!-- Footer -->
-</body>
-</html>
+
+  
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
