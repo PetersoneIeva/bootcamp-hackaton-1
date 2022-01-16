@@ -1,7 +1,3 @@
-// very limited functionality
-// when the button is clicked, a message appears under button with the name of the person,
-// all input fields are cleared, and button disabled
-
 const register = document.getElementById('register-btn')
 const confirmation = document.getElementById('confirmation');
 const name = document.getElementById('name');
@@ -13,10 +9,15 @@ register.addEventListener('click', () => {
         inputFields[i].value = ''
   }
 
-  disableButton();
+  disableButton()
 });
 
 const disableButton = () => {
     document.getElementById('register-btn').disabled = true;
  };
+
+
+ // very limited functionality
+// when the button is clicked, a message appears under button with the name of the person,
+// all input fields are cleared, and button disabled
 
