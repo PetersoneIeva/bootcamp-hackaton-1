@@ -10,4 +10,3 @@ register.addEventListener('click', () => {
   const disableButton = () => {
     document.getElementById('register-btn').disabled = true;
  };
- 
