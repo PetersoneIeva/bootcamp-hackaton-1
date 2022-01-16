@@ -1,85 +1,35 @@
-
 /* Default height for small devices */
 #intro-example {
-    height: 400px;
-    }
-      
+  height: 400px;
+}
+
 /* Height for devices larger than 992px */
-          @media (min-width: 992px) {
-            #intro-example {
-              height: 600px;
-            }
-          }
+@media (min-width: 992px) {
+  #intro-example {
+    height: 600px;
+  }
+}
 .text-uppercase {
-    color: #0f1225;
+  color: #0f1225;
 }
 div.text-center.p-4 {
-    color: white;
+  color: white;
 }
 a.nav-link {
-    color: white;
+  color: white;
 }
-/*values for reference*/
-body {
-  --color-primary: #1f4b8e;
-  --color-primary-dark: #0f1225;
-  --color-primary-light: #adbccd;
-  --color-secondary: #f1ece6;
-  --color-secondary-dark: #eadbd4;
-  --color-error: #cc3333;
-  --color-valid: #4bb544;
-  --border-radius: 4px;
-}
-
-body #login {
-  margin: 0;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-items: center;
-  font-size: 18px;
-  background-color: var(--color-secondary);
-}
-/*
-.form {
-}
-
-#logIn {
-}
-
-.form-title {
-}
-
-.form-input {
-}
-
-.form-messageError {
-}
-
-.form-inputErrorMessage {
-}
-
-.form-link {
-}
-
-.linkResetPassword {
-}
-
-.form-button {
-}
-*/
 
 h1.mb-3 {
-    color: #0f1225;
+  color: #0f1225;
 }
 h5.mb-4 {
-    color: #0f1225;
+  color: #0f1225;
 }
 a.btn {
-    color: white;
-    background-color: #0f1225;
-    border: none;
+  color: white;
+  background-color: #0f1225;
+  border: none;
 }
 nav.navbar {
-    padding: 0px;
+  padding: 0px;
 }
