@@ -18,6 +18,6 @@ const disableButton = () => {
 
 
  // very limited functionality
-// when the button is clicked, a message appears under button with the name of the person,
+// when the button is clicked, a message appears under button greeting the person by name,
 // all input fields are cleared, and button disabled
 
