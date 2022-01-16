@@ -1,0 +1,110 @@
+/*values for reference*/
+body {
+  --color-primary: #1f4b8e;
+  --color-primary-dark: #0f1225;
+  --color-primary-light: #adbccd;
+  --color-secondary: #f1ece6;
+  --color-secondary-dark: #eadbd4;
+  --color-error: #cc3333;
+  --color-valid: #4bb544;
+  --border-radius: 10px;
+}
+
+/*body*/
+#loginBody {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  background-size: cover;
+  background-image: url(https://www.teahub.io/photos/full/61-613275_snow-cat.jpg);
+}
+
+/*navbar style override*/
+.navbar {
+  background-color: #0f1225;
+}
+
+.nav-link {
+  color: #ffffff;
+}
+
+/*Form design*/
+
+.containerForm {
+  padding: 5%;
+  background-color: var(--color-secondary);
+  margin: 15%;
+  border-radius: var(--border-radius);
+  box-shadow: 0 0 40px rgba(0, 0, 0, 1);
+  justify-content: center;
+  position: absolute;
+}
+
+.form-title {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.form-hidden {
+  display: none;
+}
+
+/*for equal margins top and bottom of the form */
+.form > *:first-child {
+  margin-top: 0;
+}
+
+.form > *:last-child {
+  margin-bottom: 0;
+}
+
+.form-message {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* Reaction to content input */
+.form-message-error {
+  color: var(--color-error);
+}
+
+.form-message-success {
+  color: var(--color-valid);
+}
+
+.form-input-error-message {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color: var(--color-error);
+}
+
+/* Button style override */
+.form-button {
+  background: var(--color-primary-dark) !important;
+}
+
+.form-button:hover {
+  background: var(--color-primary) !important;
+}
+
+.form-button:active {
+  transform: scale(0.98);
+}
+
+/* text and link formatting */
+.form p {
+  text-align: center;
+  padding-top: 0.5rem;
+}
+
+.form-link {
+  text-decoration: none;
+  color: var(--color-primary-dark);
+  cursor: pointer;
+}
+
+.form-link:hover {
+  text-decoration: underline;
+}
