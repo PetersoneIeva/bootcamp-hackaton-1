@@ -58,9 +58,9 @@
         <h1 class="form-title">Reset password</h1>
         <div class="form-message form-message-success" id="resetMessage"></div>
         <div class="mb-3">
-          <input type="email" class="form-control form-input" autofocus placeholder="Enter recovery email">
+          <input type="email" class="form-control form-input" id="resetEmail" autofocus placeholder="Enter recovery email" required>
         </div>
-        <button  id="ressetButton" class="btn btn-dark col-6 mx-auto d-grid gap-2 form-button">Send</button>
+        <button  onclick="emailAlert()" class="btn btn-dark col-6 mx-auto d-grid gap-2 form-button">Send</button>
         <p><a class="form-link" id="linkSignIn" >Return to Sign in</a></p>
 <!--Link to registration page-->
         <p><a href="registration.html" class="form-link">Don't have an account? Create account</a></p>
@@ -228,5 +228,6 @@
   <!-- Footer -->
       <script src="./src/main.js"></script> 
       <script src="./src/loginpassword.js"></script>
+      <script src="./src/resetmessage.js"></script>
 </body>
 </html>
