@@ -33,3 +33,12 @@ a.btn {
 nav.navbar {
   padding: 0px;
 }
+div.col-lg-4 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+svg.bd-placeholder-img {
+    background-image: url("image/download");
+}
+
