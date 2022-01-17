@@ -1,8 +1,8 @@
 # bootcamp-hackaton-1
  Hackaton website
  
-We have created a simple website according to given instructions: 
-Create landing site for a startup that contains following pages: 
+<p>We have created a simple website according to given instructions:</p> 
+<p>Create landing site for a startup that contains following pages: </p>
 <ul>
  <li>About Us</li>
  <li>Pricing</li>
@@ -10,8 +10,8 @@ Create landing site for a startup that contains following pages:
  <li>Login</li>
 </ul>
 
-Style and any additional functionality or pages was a part of the creative thinking process. 
+<p>Style and any additional functionality or pages was a part of the creative thinking process. </p>
 
-Site have been created as a learning tool therefore corrections from bootcamp non-related people will not be revieved or implemented in the code. 
+<p>Site have been created as a learning tool therefore corrections from bootcamp non-related people will not be revieved or implemented in the code. </p>
 
-We are self-aware that the code has major and minor flaws and multiple things could be improved.
+<p>We are self-aware that the code has major and minor flaws and multiple things could be improved.</p>
