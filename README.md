@@ -3,10 +3,12 @@
  
 We have created a simple website according to given instructions: 
 Create landing site for a startup that contains following pages: 
-*About Us
-*Pricing
-*Registration
-*Login
+<ul>
+ <li>About Us</li>
+ <li>Pricing</li>
+ <li>Registration</li>
+ <li>Login</li>
+</ul>
 
 Style and any additional functionality or pages was a part of the creative thinking process. 
 
