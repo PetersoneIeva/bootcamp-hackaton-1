@@ -9,6 +9,10 @@ let input = document.getElementById("passwordLogin");
 button.addEventListener("click", function(){
     if (password.includes(input.value) && user.includes(inputUser.value)) {
         document.getElementById('success').innerHTML = "You're login information is correct!";
+        document.getElementById('success').classList.add("form-message-success");
+        document.getElementById('success').classList.remove("form-message-error");
+        document.getElementById('userError').classList.add("form-hidden");
+        document.getElementById('passwordError').classList.add("form-hidden");
        }
     else if (password.includes(input.value)) {
         document.getElementById('userError').innerHTML = "Incorrect username or e-mail";
