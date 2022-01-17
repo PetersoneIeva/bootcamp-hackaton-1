@@ -3,7 +3,7 @@ body {
   --color-primary: #1f4b8e;
   --color-primary-dark: #0f1225;
   --color-primary-light: #adbccd;
-  --color-secondary: #f1ece6;
+  --color-secondary: #ffffff;
   --color-secondary-dark: #eadbd4;
   --color-error: #cc3333;
   --color-valid: #4bb544;
@@ -21,13 +21,25 @@ body {
   background-image: url(https://www.teahub.io/photos/full/61-613275_snow-cat.jpg);
 }
 
+#underconstructionBody {
+  margin: 0;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(https://media.istockphoto.com/vectors/developing-web-site-website-under-construction-404-page-coming-soon-vector-id1184801630?k=20&m=1184801630&s=170667a&w=0&h=-A8mpKEW66J06LRXvcTM_ZFFd9mmxrcr5nXF2hRHoJI=);
+}
+
 /*navbar style override*/
 .navbar {
-  background-color: #0f1225;
+  background-color: #0f1225 !important;
 }
 
 .nav-link {
-  color: #ffffff;
+  color: #ffffff !important;
 }
 
 /*Form design*/
